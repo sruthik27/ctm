@@ -22,12 +22,12 @@ CTM is available for macOS, Linux, and Windows. Follow the installation instruct
 ### macOS / Linux
 
 1. **Clone the repository**:
-   `git clone <repository_url>
-    cd ctm/build`
+   `git clone <repository_url>`
+   `cd ctm/build`
    
 2. **Run the installation script**:
-   `chmod +x build/install.sh
-   ./install.sh`
+   `chmod +x install.sh`
+   `./install.sh`
 
    The script will:
    - Move the `ctm` binary to `/usr/local/bin` for global access.
@@ -39,8 +39,8 @@ CTM is available for macOS, Linux, and Windows. Follow the installation instruct
 ### Windows
 
 1. **Clone the repository**:
-   `git clone <repository_url>
-    cd ctm/build`
+   `git clone <repository_url>`
+   `cd ctm/build`
    
 2. **Run the installation script**:
    `.\install.ps1`

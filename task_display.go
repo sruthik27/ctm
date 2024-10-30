@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"github.com/jedib0t/go-pretty/v6/table"
 	"github.com/jedib0t/go-pretty/v6/text"
+	"github.com/mattn/go-colorable"
 	"os"
 )
 
@@ -65,6 +66,8 @@ func displayGroupedTasks(title string, tasks []model.Task) {
 	}
 }
 
+var out = colorable.NewColorableStdout()
+
 func displayTask(task model.Task) {
 	status := "\033[0m" + task.Name
 	if task.Done {
@@ -72,7 +75,7 @@ func displayTask(task model.Task) {
 	}
 
 	priorityStar := getPriorityStar(task.Priority)
-	fmt.Printf("%s %s [%d]\n", priorityStar, status, task.ID)
+	fmt.Fprintf(out, "%s %s [%d]\n", priorityStar, status, task.ID)
 }
 
 func getPriorityStar(priority int) string {

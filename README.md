@@ -22,8 +22,8 @@ CTM is available for macOS, Linux, and Windows. Follow the installation instruct
 ### macOS / Linux
 
 1. **Clone the repository**:
-   `git clone <repository_url>`
-   `cd ctm/build`
+   1. `git clone <repository_url>`
+   2. `cd ctm/build`
    
 2. **Run the installation script**:
    `chmod +x build/install.sh`

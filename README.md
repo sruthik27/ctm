@@ -75,7 +75,7 @@ Priority should be integer 1 or 2 or 3
 - `3` = Low
 
 ### List All Tasks 
-#### Lists in task name - task Id format
+#### Lists in grouped list format
 ```bash
 ctm -l
 ```

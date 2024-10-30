@@ -27,7 +27,7 @@ CTM is available for macOS, Linux, and Windows. Follow the installation instruct
    
 2. **Run the installation script**:
    * `chmod +x build/install.sh`
-   * `./install.sh`
+   * `sudo ./install.sh`
 
    The script will:
    - Move the `ctm` binary to `/usr/local/bin` for global access.

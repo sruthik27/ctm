@@ -23,4 +23,4 @@ if (!(Test-Path $PROFILE)) {
 # Open the profile in notepad to edit it
 notepad $PROFILE
 
-# Add this copied content to end of your profile
+# Add the copied content to end of your profile file

@@ -2,6 +2,8 @@
 
 **CTM** (Command Line Task Manager) is a lightweight CLI-based tool for managing tasks, setting priorities, and organizing to-dos efficiently from the terminal. Designed to be simple yet effective, CTM provides a set of powerful commands for adding, completing, prioritizing, listing, and archiving tasks right from the command line.
 
+[![asciicast](https://asciinema.org/a/yN9gCosBKVJkoAyk2ZKj7nSDA.svg)](https://asciinema.org/a/yN9gCosBKVJkoAyk2ZKj7nSDA)
+
 ## Features
 
 - **Add Tasks**: Quickly add new tasks with options to set priorities.
